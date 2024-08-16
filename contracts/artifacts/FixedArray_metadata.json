@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_data",
+						"type": "uint256"
+					},
+					{
+						"internalType": "int256",
+						"name": "_ind",
+						"type": "int256"
+					}
+				],
+				"name": "insertElements",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/2_arrays.sol": "FixedArray"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/2_arrays.sol": {
+			"keccak256": "0x1730ffcf971ede10ed63dc656bff71cd4ed3f35cdc7c3b39f065a4a30f35de22",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://771d8f031679c7540d4874e3213d46f00a524123df6cbe6157097e2e0da3bc5e",
+				"dweb:/ipfs/QmRSjWnKozYPBdHHAnvwE6zx4ZPgapoyRJUPCRD6HnHJ47"
+			]
+		}
+	},
+	"version": 1
+}
